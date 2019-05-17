@@ -1,0 +1,15 @@
+type User {
+    level: String!
+    name: String!
+    result: Int!
+}
+
+type Query {
+    users(level: String!): [User]
+    userResults(name: String!): [User]
+}
+
+type Mutation {
+    createUser(level: String!, name: String!, result: Int!): User
+    deleteUser(name: String!): [User]
+}

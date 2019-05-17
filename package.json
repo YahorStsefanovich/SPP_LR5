@@ -1,0 +1,21 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "graphpack",
+    "build": "graphpack build"
+  },
+  "keywords": [],
+  "author": "yegorstsephanovich@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "graphpack": "^1.0.8",
+    "mongodb": "^3.2.3"
+  },
+  "dependencies": {
+    "mongoose": "^5.5.5"
+  }
+}
